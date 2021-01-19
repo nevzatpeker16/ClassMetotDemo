@@ -20,6 +20,10 @@ namespace ClassMetotDemo
             Console.WriteLine("******************");
             Console.WriteLine("Musteri Adı : {0}  Musteri Soyad : {1}  Musteri Bakiyesi : ", customer.CustomerName, customer.CustomerSurname, customer.CustomerBalance);
         }
-            
+        public void ShowCustomer(Customer customer)
+        {
+            Console.WriteLine("******************");
+            Console.WriteLine("Musteri Adı : {0}  Musteri Soyad : {1}  Musteri Bakiyesi : ", customer.CustomerName, customer.CustomerSurname, customer.CustomerBalance);
+        }
     }
 }
